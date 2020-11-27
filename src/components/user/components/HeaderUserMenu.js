@@ -60,10 +60,6 @@ export default class HeaderUserMenu extends React.Component {
                         <a class="dropdown-item" href="#"><i class="ft-mail"></i> My Inbox</a>
                     </Dropdown.Menu>
                 </Dropdown>
-
-
-
-
             </li>
         );
     }

@@ -1,5 +1,6 @@
 import React from 'react'
 import HeaderUserMenu from "../../user/components/HeaderUserMenu";
+import HeaderProjectMenu from "../../project/components/HeaderProjectMenu";
 
 
 export default class Header extends React.Component {
@@ -24,15 +25,10 @@ export default class Header extends React.Component {
                     <div class="navbar-container content">
                         <div class="collapse navbar-collapse" id="navbar-mobile">
                             <ul class="nav navbar-nav mr-auto float-left">
-
-                                <li class="dropdown nav-item">
-                                    <a class=" nav-link" href="#" >Mega</a>
-                                </li>
-
+                                <HeaderProjectMenu/>
                             </ul>
 
                             <ul class="nav navbar-nav float-right">
-
                                 <HeaderUserMenu/>
                             </ul>
 
