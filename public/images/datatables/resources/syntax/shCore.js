@@ -248,7 +248,7 @@ var sh = {
     },
 
     /**
-     * Finds all elements on the page which should be processes by SyntaxHighlighter.
+     * Finds all elements on the pages which should be processes by SyntaxHighlighter.
      *
      * @param {Object} globalParams     Optional parameters which override element's
      *                                  parameters. Only used if element is specified.
@@ -291,7 +291,7 @@ var sh = {
     },
 
     /**
-     * Shorthand to highlight all elements on the page that are marked as
+     * Shorthand to highlight all elements on the pages that are marked as
      * SyntaxHighlighter source code.
      *
      * @param {Object} globalParams     Optional parameters which override element's
@@ -1880,8 +1880,8 @@ typeof(exports) != 'undefined' ? exports.SyntaxHighlighter = SyntaxHighlighter :
                         'elevation empty-cells float font-size-adjust font-family font-size font-stretch font-style font-variant font-weight font ' +
                         'height left letter-spacing line-height list-style-image list-style-position list-style-type list-style margin-top ' +
                         'margin-right margin-bottom margin-left margin marker-offset marks mathline max-height max-width min-height min-width orphans ' +
-                        'outline-color outline-style outline-width outline overflow padding-top padding-right padding-bottom padding-left padding page ' +
-                        'page-break-after page-break-before page-break-inside pause pause-after pause-before pitch pitch-range play-during position ' +
+                        'outline-color outline-style outline-width outline overflow padding-top padding-right padding-bottom padding-left padding pages ' +
+                        'pages-break-after pages-break-before pages-break-inside pause pause-after pause-before pitch pitch-range play-during position ' +
                         'quotes right richness size slope src speak-header speak-numeral speak-punctuation speak speech-rate stemh stemv stress ' +
                         'table-layout text-align top text-decoration text-indent text-shadow text-transform unicode-bidi unicode-range units-per-em ' +
                         'vertical-align visibility voice-family volume white-space widows width widths word-spacing x-height z-index';
