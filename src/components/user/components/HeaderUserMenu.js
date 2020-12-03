@@ -41,13 +41,13 @@ const CustomMenu = React.forwardRef(
 export default class HeaderUserMenu extends React.Component {
     render (){
         return(
-            <li class="dropdown dropdown-user nav-item">
+            <li className="dropdown dropdown-user nav-item">
                 <Dropdown>
                     <Dropdown.Toggle as={CustomToggle} id="dropdown-user-link">
-                        <span class="avatar avatar-online">
-                            <img src="/images/portrait/small/avatar-s-1.png"alt="avatar"/><i></i>
+                        <span className="avatar avatar-online">
+                            <img src="/images/portrait/small/avatar-s-1.png" alt="avatar"/><i></i>
                         </span>
-                        <span class="user-name">John Doe</span>
+                        <span className="user-name">John Doe</span>
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu as={CustomMenu} className="dropdown-menu-right">
@@ -57,7 +57,6 @@ export default class HeaderUserMenu extends React.Component {
                             Orange
                         </Dropdown.Item>
                         <Dropdown.Item eventKey="1">Red-Orange</Dropdown.Item>
-                        <a class="dropdown-item" href="#"><i class="ft-mail"></i> My Inbox</a>
                     </Dropdown.Menu>
                 </Dropdown>
             </li>

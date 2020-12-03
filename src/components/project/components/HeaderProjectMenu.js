@@ -41,9 +41,9 @@ const CustomMenu = React.forwardRef(
 export default class HeaderProjectMenu extends React.Component {
     render () {
         return (
-            <li class="dropdown nav-item">
+            <li className="dropdown nav-item">
                 <Dropdown>
-                    <Dropdown.Toggle as={CustomToggle} id="dropdown-user-link">
+                    <Dropdown.Toggle as={CustomToggle} id="header-project-menu">
                         Проекты
                     </Dropdown.Toggle>
 
@@ -54,7 +54,7 @@ export default class HeaderProjectMenu extends React.Component {
                             Orange
                         </Dropdown.Item>
                         <Dropdown.Item eventKey="1">Red-Orange</Dropdown.Item>
-                        <a class="dropdown-item" href="#"><i class="ft-mail"></i> My Inbox</a>
+                        <a className="dropdown-item" href="#"><i className="ft-mail"></i> My Inbox</a>
                     </Dropdown.Menu>
                 </Dropdown>
             </li>
